@@ -10,7 +10,7 @@ var User = require('../api/user/user.model');
 
 Thing.find({}).remove(function() {
   Thing.create({
-    name : 'Development Tools',
+    name : 'Complete Git Repositaries',
     info : 'Integration with popular tools such as Bower, Grunt, Karma, Mocha, JSHint, Node Inspector, Livereload, Protractor, Jade, Stylus, Sass, CoffeeScript, and Less.'
   }, {
     name : 'Server and Client integration',
@@ -25,7 +25,7 @@ Thing.find({}).remove(function() {
     name : 'Optimized Build',
     info : 'Build process packs up your templates as a single JavaScript payload, minifies your scripts/css/images, and rewrites asset names for caching.'
   },{
-    name : 'Deployment Ready',
+    name : 'Deployment to Heroku',
     info : 'Easily deploy your app to Heroku or Openshift with the heroku and openshift subgenerators'
   });
 });
